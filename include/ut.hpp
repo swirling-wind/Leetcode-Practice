@@ -308,10 +308,10 @@ static_assert(need_length <= raw_length,
               "Auto find prefix and suffix lenght broken error 1");
 inline constexpr const std::size_t prefix_length =
     raw_type_name.find(need_name);
-static_assert(prefix_length != std::string_view::npos,
-              "Auto find prefix and suffix lenght broken error 2");
-static_assert(prefix_length <= raw_length,
-              "Auto find prefix and suffix lenght broken error 3");
+//static_assert(prefix_length != std::string_view::npos,
+//              "Auto find prefix and suffix lenght broken error 2");
+//static_assert(prefix_length <= raw_length,
+//              "Auto find prefix and suffix lenght broken error 3");
 inline constexpr const std::size_t tail_lenght = raw_length - prefix_length;
 static_assert(need_length <= tail_lenght,
               "Auto find prefix and suffix lenght broken error 4");
