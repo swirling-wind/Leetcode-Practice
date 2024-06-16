@@ -7,7 +7,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="L0146_LRU.cpp">
+    <ClCompile Include="Para0304.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
