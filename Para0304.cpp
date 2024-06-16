@@ -3,6 +3,7 @@
 #include <vector>
 #include <format>
 #include <optional>
+
 using namespace std;
 
 auto gcd(const int a, const int b) -> int
@@ -116,7 +117,6 @@ auto quick_sort(vector<int>& arr) -> void
 		quick_sort_helper(arr, 0, arr.size() - 1);
 	}
 }
-
 
 int main()
 {
